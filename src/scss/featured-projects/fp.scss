@@ -1,0 +1,224 @@
+.fp-container {
+    max-width: 1440px;
+    margin: 0 auto 150px auto;
+}
+
+.fp-h1-container {
+    // border: red 2px dashed;
+    height: 20px;
+    // font-size: 17px;
+    margin-bottom: 5px;
+    
+}
+
+.fp {
+    margin: 0 0 0 14px;
+    font-family: 'Lato';
+    font-size: 17px;
+    color: #67182e;
+    letter-spacing: 2px;
+    
+}
+
+.nav_separator-fp {
+    background-color: black;
+    height: 1px;
+    // width: 96%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.fp-info1-container {
+    // border: red 2px dotted;
+    // height: 16.3vh;
+    max-width: 1440px;
+    // width: 80vw;
+    display: flex;
+    // line-height: 4em;
+    margin: 0 15px 0 15px;  
+    justify-content: space-between; 
+
+}
+.fp-info1-title-container {
+display: flex;
+flex-direction: column;
+width: 16vw;
+}
+
+.fp-info1-title {
+    // border: blue 2px dotted;
+    // width:25%;
+    font-family: 'Lato';
+    color: #67182e;
+    font-size: calc(1px + 8vw);
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    // float:left;
+    // margin-left: 15px;
+    // white-space: pre-wrap;
+    @media (min-width:600px){
+        font-size: 50px;
+    }
+    @media (min-width:900px){
+    font-size: 50px;
+    }
+    @media(min-width:1080px){
+        font-size: 60px;
+    }
+
+}
+.fp-info1-year {
+
+}
+
+.fp-info1-info {
+    // border: green 2px dotted;
+    // height: 16.3vh;
+    width:50%;
+    float: right;  
+    display: flex;
+    justify-content: space-between;
+}
+
+.fp-info1-info-p {
+    // border: green 2px dotted;
+    // height: 80%;
+    width: 45%;
+    font-size: 14px;
+    margin-top: 10px;
+    
+    // @media (min-width: 900px){
+    //     margin-left:20px
+    // }
+    // @media(min-width: 1200px){
+    //     margin-left:20px
+    // }
+    // @media(min-width: 1300px){
+    //     margin-left:26px
+    // }
+    @media (min-width: 1400px){
+        // margin-left: 28px;
+        width: 400px;
+    }
+    // @media(min-width: 1800px){
+    //     margin-left:16px
+    // }
+    // @media(min-width: 1830px){
+    //     margin-left:5px
+    // }
+    // @media(min-width: 1870px){
+    //     margin-left:-12px
+    // }
+    // @media(min-width: 1900px){
+    //     margin-left:-22px
+    // }
+    // @media(min-width: 1920px){
+    //     margin-left:-29px
+    // }
+}
+.fp-info1-info-p-span{
+    color: #67182e;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.fp-info1-info-roles {
+    // border: green 2px dotted;
+    // height: 8%;
+    width: 45%;
+    margin-top: 10px;
+    font-family: 'Lato';
+    margin-left: 35px;
+
+}
+
+.fp-showcase-container {
+    // border: #67182e 2px dotted;
+    // height: 444px;
+    margin: 25px 15px 30px 15px;
+    display: flex;
+    justify-content: center;
+    @media (min-width: 900px){
+        justify-content: space-around;
+    }
+
+}
+
+.fp-showcase-1 {
+    // border: blue 2px dashed;
+    background-image: url(../../assets/sunset.jpeg);
+    background-size:100% 100%;
+    width: 49%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    @media (min-width:500px){
+        width: 500px;
+        height: 300px;
+    }
+    @media (min-width:900px){
+        width:500px;
+        height: 300px;
+    }
+
+    @media (min-width:1300px){
+        width:600px;
+        height:350px;
+    }
+    @media (min-width:1400px){
+        width:700px;
+        height:450px;
+    }
+}
+
+.fp-showcase-2 {
+    // border: blue 2px dashed;
+    background-color: white;
+    width: 49%;
+    // display: none;
+    height: 100%;
+    @media (min-width:500px){
+        display: none;
+    }
+    @media (min-width:900px){
+        display: none;
+        // width: 45vw;
+        background-image: url(../../assets/sunrise.jpeg);
+        background-size:100% 100%;
+        width:400px;
+        height: 300px;
+    }
+    @media (min-width:1000px){
+        display:flex;
+        width:500px;
+        height:300px;
+    }
+
+    @media (min-width:1300px){
+        width:600px;
+        height:350px;
+    }
+    @media (min-width:1400px){
+        width:700px;
+        height:450px;
+    }
+}
+
+.fp-showcase-button {
+    background-color: #67182e;
+    width: 40%;
+    height: 50px;
+    border-radius: .25rem;
+    color: white;
+    font-family: 'Lato';
+    font-size: 20px;
+}
+.fp-showcase-button:hover {
+    color: black;
+}
+
+

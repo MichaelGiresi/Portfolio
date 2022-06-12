@@ -1,0 +1,51 @@
+.cs {
+    max-width: 1440px;
+    margin: 0 auto 0 auto;
+}
+
+.cs-container {
+    // border: #111 1px solid;
+    height: 300px;
+    margin: 15px 15px 40px 15px;
+    display: flex;
+    justify-content: end;
+
+    @media (max-width: 580px){
+        height:auto;
+    }
+}
+
+.cs-wrapper {
+    // border: red 1px dashed;
+    height:100%;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.cs-h3 {
+    font-size: 40px;
+    font-family: 'Lato';
+    margin: 0 0 0 0;
+    font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  @media (max-width: 580px){
+      font-size: 35px;
+  }
+
+}
+
+.cs-divider {
+
+    background-color: black;
+    height: 1px;
+    // width: 96%;
+    // margin-left: 15px;
+    margin-right: 15px;
+    // margin-top: 15px;
+}
