@@ -6,7 +6,6 @@ import MoreProjects from "./components/MoreProjects";
 import Nav from "./components/Nav";
 
 import React from 'react'
-import Test from "./components/Test";
 
 const Output = () => {
   return (
@@ -16,7 +15,6 @@ const Output = () => {
         <FeaturedProjects/>
         {/* <MoreProjects/> */}
         <CurrentSkill/>
-        <Test/>
         <Footer/>
     </div>
   )
