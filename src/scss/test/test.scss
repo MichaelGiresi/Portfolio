@@ -9,22 +9,29 @@
 }
 
 .triangle-border-black {
-    border-bottom: 20px solid black;
-    border-left: 10px solid #D7d6d7;
-    border-right: 10px solid #D7d6d7;
+    border-bottom: 9px solid black;
+    border-left: 4px solid #D7d6d7;
+    border-right: 4px solid #D7d6d7;
     transition: border-bottom 2s, border-left 2s, border-right 2s;
 
 }
 
 .triangle-border-white {
-    border-bottom: 20px solid white;
-    border-left: 10px solid #D7d6d7;
-    border-right: 10px solid #D7d6d7;
+    border-bottom: 9px solid white;
+    border-left: 4px solid #D7d6d7;
+    border-right: 4px solid #D7d6d7;
+    transition: border-bottom 2s, border-left 2s, border-right 2s;
+}
+
+.triangle-true {
+    border-bottom: 30px solid blue;
+    border-left: 15px solid #D7d6d7;
+    border-right: 15px solid #D7d6d7;
     transition: border-bottom 2s, border-left 2s, border-right 2s;
 }
 
 .row0 {
-    // background-color: #D7d6d7;
+    background-color: #D7d6d7;
     height: 12%;
     display: flex;
     justify-content: space-around;
@@ -32,18 +39,12 @@
     
 }
 
-.row0-t0 {
-    font-size: 0px; 
-    line-height: 0%; 
-    width: 0px;
-   
-}
 
 .hoverChange:hover {
-    transition: border-bottom .2s, border-left .2s, border-right .2s;
-    border-bottom: 40px solid #67182e;
-    border-left: 20px solid #D7d6d7;
-    border-right: 20px solid #D7d6d7;
+    transition: border-bottom .3s, border-left .3s, border-right .3s;
+    border-bottom: 30px solid #67182e;
+    border-left: 15px solid #D7d6d7;
+    border-right: 15px solid #D7d6d7;
 }
 
 .row0-t1 {

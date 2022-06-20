@@ -3,9 +3,46 @@ import test from '../scss/test/test.css'
 
 const Test = () => {
 
-    let [triangleState, setTriangleState] = useState(false)
+    const [triangle00, setTriangle00] = useState(true)
 
-    console.log(triangleState)
+
+    const triangleSwap = () => {
+
+        const t1 = document.getElementById('row0-t0')
+
+
+            if(!triangle00) {
+                setTriangle00(true)
+            } else {
+                setTriangle00(false)
+            }
+
+            if(triangle00) {
+                t1.classList.add('triangle-true')
+            } else if(!triangle00) {
+                t1.classList.remove('triangle-true')
+            }
+        
+    } 
+    useEffect (() => {
+        console.log(triangle00)
+
+
+    })
+
+
+
+
+// useEffect(() => {
+
+//     if(Test) {
+//         if(!triangle00) {
+//             setTriangle00(true)
+//         }
+//     }
+
+// })
+    
 
 
 
@@ -14,10 +51,11 @@ const Test = () => {
 
 
 
+
     <div className='test'>
 
         <div className='row0'>
-            <div className='row0-t0 hoverChange triangle-border-white' onClick={() => {setTriangleState(triangleState => !triangleState)}}></div>
+            <div id="row0-t0"className='tri row0-t0 hoverChange triangle-border-white' onClick={() => triangleSwap()}></div>
             <div className='row0-t1 hoverChange triangle-border-white'></div>
             <div className='row0-t2 hoverChange triangle-border-white'></div>
             <div className='row0-t3 hoverChange triangle-border-white'></div>
@@ -119,6 +157,7 @@ const Test = () => {
             <div className='row7-t8 hoverChange triangle-border-black'></div>
             <div className='row7-t9 hoverChange triangle-border-black'></div>
         </div>
+    
 
     </div>
   )
