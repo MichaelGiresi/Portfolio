@@ -7,6 +7,7 @@ import test from '../scss/test/test.css'
 const Test = () => {
 
     const [triangle00, setTriangle00] = useState(true)
+    const [sound, setSound] = useState(false)
 
 
     const triangleSwap0 = () => {
@@ -349,6 +350,7 @@ const Test = () => {
         
     } 
 
+    
 
 
 

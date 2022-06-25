@@ -580,3 +580,35 @@
     line-height: 0%; 
     width: 0px;
 }
+
+
+
+.soundOn {
+    color:red;
+    font-family: 'Lato';
+    margin: auto 0 2px 0 ;
+    font-weight: bold;
+    animation: fadeIn 1.8s;
+
+    
+}
+
+@keyframes fadeIn {
+    from {
+      color: black
+    }
+  
+    to {
+      color: red
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 0.8;
+    }
+  
+    to {
+      opacity: 0;
+    }
+  }

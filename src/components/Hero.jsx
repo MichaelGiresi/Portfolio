@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import trianglegrid from '../assets/trianglegrid.svg'
 import hero from '../scss/hero/hero.css'
 import { gsap } from 'gsap'
@@ -20,40 +20,18 @@ const Hero = () => {
 
   useEffect(() => {
     gsap.from(feRef.current, {opacity:0, y:-15, duration:1, delay:.3})
-  })
-
-  useEffect(() => {
     gsap.from(devRef.current, { opacity: 0, y: -15, duration: 1, delay:.3})
-  })
-
-  useEffect(() => {
     gsap.from(withRef.current, { opacity: 0, y: -7, duration: .6, delay:2 })
-  })
-  useEffect(() => {
     gsap.from(aRef.current, { opacity: 0, y: -7, duration: .6, delay:2.2 })
-  })
-  useEffect(() => {
     gsap.from(passionRef.current, { opacity: 0, y: -7, duration: .6, delay:2.5 })
-  })
-  useEffect(() => {
     gsap.from(forRef.current, { opacity: 0, y: -7, duration: .6, delay:3 })
-  })
-  useEffect(() => {
     gsap.from(soundRef.current, { opacity: 0, y: -7, duration: .6, delay:3.3 })
-  })
-  useEffect(() => {
     gsap.from(designRef.current, { opacity: 0, y: -7, duration: .6, delay:3.7 })
-  })
-  useEffect(() => {
     gsap.from(hthRef.current, {opacity:0, y:-10, duration:1.7, delay:.8})
-  })
-  useEffect(() => {
     gsap.from(htRef.current, {opacity:0, y:-10, duration:1.7, delay:1})
-  })
-  useEffect(() => {
-  const items = document.querySelectorAll('.MG_span')
-
-
+    
+    const items = document.querySelectorAll('.MG_span')
+    
     items.forEach((el) => {
       const image = el.querySelector('.img1')
       
@@ -61,7 +39,7 @@ const Hero = () => {
         gsap.to(image, { autoAlpha: 1 })
       })
       
-       el.addEventListener('mouseleave', (e) => {
+      el.addEventListener('mouseleave', (e) => {
         gsap.to(image, { autoAlpha: 0 })
       })
       
@@ -70,8 +48,6 @@ const Hero = () => {
       })
     })
   })
-
-  
   
   
   return (

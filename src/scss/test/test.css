@@ -616,4 +616,49 @@
   line-height: 0%;
   width: 0px;
 }
+
+.soundOn {
+  color: red;
+  font-family: 'Lato';
+  margin: auto 0 2px 0;
+  font-weight: bold;
+  -webkit-animation: fadeIn 1.8s;
+          animation: fadeIn 1.8s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    color: black;
+  }
+  to {
+    color: red;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    color: black;
+  }
+  to {
+    color: red;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 0;
+  }
+}
 /*# sourceMappingURL=test.css.map */
