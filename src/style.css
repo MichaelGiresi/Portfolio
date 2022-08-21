@@ -28,12 +28,8 @@
 }
 
 .mp-info-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .mp-info-title-container {
@@ -53,10 +49,9 @@
 }
 
 .mp-info-p {
-  font-family: 'Libre';
+  font-family: "Libre";
 }
 
 .mp-info-p-wrapper {
   width: 50%;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

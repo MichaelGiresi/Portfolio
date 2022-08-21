@@ -6,17 +6,15 @@ import MoreProjects from "./components/MoreProjects";
 import Nav from "./components/Nav";
 
 import React from 'react'
-import Test from "./components/Test";
 
 const Output = () => {
   return (
     <div className="output">
         <Nav/>
         <Hero/>
-        {/* <FeaturedProjects/> */}
+        <FeaturedProjects/>
         {/* <MoreProjects/> */}
-        {/* <CurrentSkill/> */}
-        <Test/>
+        <CurrentSkill/>
         <Footer/>
     </div>
   )

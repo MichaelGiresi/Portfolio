@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef } from 'react'
 import trianglegrid from '../assets/trianglegrid.svg'
 import hero from '../scss/hero/hero.css'
 import { gsap } from 'gsap'
@@ -20,18 +20,40 @@ const Hero = () => {
 
   useEffect(() => {
     gsap.from(feRef.current, {opacity:0, y:-15, duration:1, delay:.3})
+  })
+
+  useEffect(() => {
     gsap.from(devRef.current, { opacity: 0, y: -15, duration: 1, delay:.3})
+  })
+
+  useEffect(() => {
     gsap.from(withRef.current, { opacity: 0, y: -7, duration: .6, delay:2 })
+  })
+  useEffect(() => {
     gsap.from(aRef.current, { opacity: 0, y: -7, duration: .6, delay:2.2 })
+  })
+  useEffect(() => {
     gsap.from(passionRef.current, { opacity: 0, y: -7, duration: .6, delay:2.5 })
+  })
+  useEffect(() => {
     gsap.from(forRef.current, { opacity: 0, y: -7, duration: .6, delay:3 })
+  })
+  useEffect(() => {
     gsap.from(soundRef.current, { opacity: 0, y: -7, duration: .6, delay:3.3 })
+  })
+  useEffect(() => {
     gsap.from(designRef.current, { opacity: 0, y: -7, duration: .6, delay:3.7 })
+  })
+  useEffect(() => {
     gsap.from(hthRef.current, {opacity:0, y:-10, duration:1.7, delay:.8})
+  })
+  useEffect(() => {
     gsap.from(htRef.current, {opacity:0, y:-10, duration:1.7, delay:1})
-    
-    const items = document.querySelectorAll('.MG_span')
-    
+  })
+  useEffect(() => {
+  const items = document.querySelectorAll('.MG_span')
+
+
     items.forEach((el) => {
       const image = el.querySelector('.img1')
       
@@ -39,7 +61,7 @@ const Hero = () => {
         gsap.to(image, { autoAlpha: 1 })
       })
       
-      el.addEventListener('mouseleave', (e) => {
+       el.addEventListener('mouseleave', (e) => {
         gsap.to(image, { autoAlpha: 0 })
       })
       
@@ -48,6 +70,8 @@ const Hero = () => {
       })
     })
   })
+
+  
   
   
   return (
@@ -61,7 +85,7 @@ const Hero = () => {
         
        <img className='ht' src={trianglegrid}/>
         <div className='hero_text_container'>
-          <div className='hero_text_heading' ref={hthRef}>Nice to meet you, I'm <span className='MG_span'><img className="img1" src={selfie}/>Michael Giresi</span>. Developer, Musician, Teacher, and Manager.</div>
+          <div className='hero_text_heading' ref={hthRef}>Nice to meet you, I'm <span className='MG_span'><img className="img1" src={selfie}/>Michael Giresi</span></div>
           <div className='hero_text' ref={htRef}>I’ve lived in New York my whole life, but the unexplainable guides me. New experiences, places, people and events. Towards tragedies and comedies, drama and mystery. Often repeated, but sometimes new, my body leaps with excitement at the thought. The thought of the unexplainable, explained through the teachings of a foreign moment. So I search, compass ready, guiding me towards the unknown. </div>
           <div className='hero_text-last'>Lorem ipsum dolor sit amet. Itaque facere, excepturi exercitationem porro qui fuga! Voluptate, accusamus, eos esse laborum sunt minima obcaecati incidunt architecto officia illum quam placeat asperiores dicta repudiandae, deleniti sapiente id saepe commodi! Aliquid laudantium quod odit perferendis ea iure facilis. Expedita, explicabo? Unde, accusamus reprehenderit.</div>
         </div>

@@ -86,6 +86,8 @@ width: 16vw;
 .fp-info1-info-p {
     // border: green 2px dotted;
     // height: 80%;
+    font-family: 'Lato';
+    line-height: 20px;
     width: 45%;
     font-size: 14px;
     margin-top: 10px;
@@ -132,6 +134,7 @@ width: 16vw;
     margin-top: 10px;
     font-family: 'Lato';
     margin-left: 35px;
+    line-height: 22px;
 
 }
 
@@ -147,9 +150,9 @@ width: 16vw;
 
 }
 
-.fp-showcase-1 {
+.fp-showcase-1-mbs {
     // border: blue 2px dashed;
-    background-image: url(../../assets/sunset.jpeg);
+    background-image: url(../../assets/mbs-png.png);
     background-size:100% 100%;
     width: 49%;
     height: 100%;
@@ -175,7 +178,7 @@ width: 16vw;
     }
 }
 
-.fp-showcase-2 {
+.fp-showcase-2-mbs {
     // border: blue 2px dashed;
     background-color: white;
     width: 49%;
@@ -187,7 +190,7 @@ width: 16vw;
     @media (min-width:900px){
         display: none;
         // width: 45vw;
-        background-image: url(../../assets/sunrise.jpeg);
+        background-image: url(../../assets/mbs2.png);
         background-size:100% 100%;
         width:400px;
         height: 300px;
@@ -208,6 +211,68 @@ width: 16vw;
     }
 }
 
+.fp-showcase-1-algo {
+    // border: blue 2px dashed;
+    background-image: url(../../assets/algorythmia-png.png);
+    background-size:100% 100%;
+    width: 49%;
+    height: 281px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    @media (min-width:500px){
+        width: 500px;
+        // height: 300px;
+    }
+    @media (min-width:900px){
+        width:500px;
+        // height: 300px;
+    }
+
+    @media (min-width:1300px){
+        width:600px;
+        height:338px;
+    }
+    @media (min-width:1400px){
+        width:700px;
+        height:394px;
+    }
+}
+
+.fp-showcase-2-algo {
+    // border: blue 2px dashed;
+    background-color: white;
+    width: 49%;
+    // display: none;
+    height: 281px;
+    @media (min-width:500px){
+        display: none;
+    }
+    @media (min-width:900px){
+        display: none;
+        // width: 45vw;
+        background-image: url(../../assets/algorythmia2.png);
+        background-size:100% 100%;
+        width:400px;
+        height: 300px;
+    }
+    @media (min-width:1000px){
+        display:flex;
+        width:500px;
+        height:281px;
+    }
+
+    @media (min-width:1300px){
+        width:600px;
+        height:338px;
+    }
+    @media (min-width:1400px){
+        width:700px;
+        height:394px;
+    }
+}
+
+
 .fp-showcase-button {
     background-color: #67182e;
     width: 40%;
@@ -215,10 +280,16 @@ width: 16vw;
     border-radius: .25rem;
     color: white;
     font-family: 'Lato';
+    opacity: 1;
     font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .fp-showcase-button:hover {
     color: black;
+    transition: .3s;
 }
 
 

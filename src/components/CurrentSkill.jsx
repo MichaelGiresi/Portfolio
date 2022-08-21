@@ -10,7 +10,7 @@ const CurrentSkill = () => {
         <div className='cs-wrapper'>
           <h3 className='cs-h3'>GSAP + FRAMER MOTION</h3>
           <div className='cs-divider'></div>
-          <h3 className='cs-h3'>REACT + NEXT</h3>
+          <h3 className='cs-h3'>REACT</h3>
           <div className='cs-divider'></div>
           <h3 className='cs-h3'>JAVASCRIPT + TYPESCRIPT</h3>
           <div className='cs-divider'></div>

@@ -1,31 +1,27 @@
 .nav {
-
     display: flex;
     justify-content: space-between;
     margin-bottom: .25rem;
     width: 98%;
-    max-width: 1410px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
-    
+    font-family: 'Lato';
+    font-weight: bold;
     }
     
-    .nav_sound {
-        font-family: 'Lato';
-        margin: auto 0 2px 0 ;
-        font-weight: bold;
-        cursor: pointer;
+    .nav_linkedin {
+    margin: auto 0 2px 0 ;
+    text-decoration: none;
+    color: #67182e; 
     }
+
     .nav_monogram {
-        margin-top: .5rem;
-        
+        margin-top: .5rem; 
     }
     
     .nav_contact {
-        font-family: 'Lato';
         margin: auto 0 2px 0;
-        color: #67182e;
-        font-weight: bold;
     }
     
     .nav_separator {
@@ -34,15 +30,11 @@
         width: 98%;
         margin-left: auto;
         margin-right: auto;
-        max-width: 1410px;
+        max-width: 1600px;
         margin-bottom: 5vh;
-        @media (min-width:740px){
-
-        }
         @media (min-width:1400px) {
             margin-bottom: 115px;
         }
-
     }
     
     .monogram {
