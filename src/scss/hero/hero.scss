@@ -1,31 +1,15 @@
 .hero_main {
-
-    max-width: 1440px;
-    max-height: 1440px;
-
+    max-width: 1600px;
     display: flex;
     flex-direction: column;
-    
     align-items: center;
     margin: 0 auto 0 auto;
-    @media (min-height: 300px){
-    
-        display: flex;
-
-       
-    }
 
 }
 .hero_container{
 max-width: 1600px;
-//  width: 80vw;
- height: auto;
-//  border: black solid 1px;
-//  margin-top: 7vh;
+height: auto;
 margin-bottom: 70px;
-@media (min-width:750px){
-    // margin-bottom: 5vh;
-}
 
 }
 .hero_frontend {

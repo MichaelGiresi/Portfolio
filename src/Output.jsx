@@ -11,11 +11,11 @@ const Output = () => {
   return (
     <div className="output">
         <Nav/>
-        <Hero/> {/* Needs rework for white space on right*/} 
-        <FeaturedProjects/> {/* Needs rework for white space on right*/} 
+        <Hero/>
+        {/* <FeaturedProjects/>  */}
         {/* <MoreProjects/> */}
-        <CurrentSkill/> {/* Needs rework for white space on right*/} 
-        <Footer/>
+        {/* <CurrentSkill/> */}
+        {/* <Footer/> */}
     </div>
   )
 }
