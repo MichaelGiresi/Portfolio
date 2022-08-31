@@ -51,6 +51,9 @@ font-size: 27px;
 font-family: 'Libre';
 line-height: .7em;
 font-size: 48px;
+@media (min-width: 450px) {
+    font-size: 70px;
+}
 @media(min-width:650px){
     font-size: 90px;
 }
@@ -126,7 +129,7 @@ font-size: 48px;
     }
     @media (max-width:740px){
         margin-bottom: 5vh;
-        width: 50vw;
+        width: 77vw;
     }
     @media (min-width:1560px){
     }
@@ -141,8 +144,15 @@ font-size: 48px;
     text-align: center;
     margin-bottom: 20px;
     font-size: 20px;
+    @media (min-width: 450px) {
+        font-size: 30px;
+    }
+    @media (min-width: 550px) {
+        font-size: 35px;
+    }
     @media(min-width:650px){
         font-size: 30px;
+        width: auto;
     }
     @media(min-width:740px){
         font-size: 32px;
@@ -185,7 +195,10 @@ font-size: 48px;
         text-align: center;
         margin-bottom: 30px;
         font-size: 12px;
-        width: 300px;
+        // width: 300px;
+        @media (min-width: 450px) {
+            font-size: 14px;
+        }
         @media (min-width:750px){
             text-align: left;
             margin-left: 0;
@@ -275,10 +288,12 @@ font-size: 48px;
     }
 
     .MG_span {
-        text-decoration: underline;
-        // display:f;
+        text-decoration: none;
         position:relative;
         z-index:1;
+        @media (min-width: 768px) {
+        text-decoration: underline;
+        }
     }
 
     .MG_span:hover {

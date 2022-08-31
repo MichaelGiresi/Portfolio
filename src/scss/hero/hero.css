@@ -70,6 +70,11 @@
   line-height: 0.7em;
   font-size: 48px;
 }
+@media (min-width: 450px) {
+  .hero_developer {
+    font-size: 70px;
+  }
+}
 @media (min-width: 650px) {
   .hero_developer {
     font-size: 90px;
@@ -182,7 +187,7 @@
 @media (max-width: 740px) {
   .hero_triangles {
     margin-bottom: 5vh;
-    width: 50vw;
+    width: 77vw;
   }
 }
 .hero_text_heading {
@@ -194,9 +199,20 @@
   margin-bottom: 20px;
   font-size: 20px;
 }
+@media (min-width: 450px) {
+  .hero_text_heading {
+    font-size: 30px;
+  }
+}
+@media (min-width: 550px) {
+  .hero_text_heading {
+    font-size: 35px;
+  }
+}
 @media (min-width: 650px) {
   .hero_text_heading {
     font-size: 30px;
+    width: auto;
   }
 }
 @media (min-width: 740px) {
@@ -254,7 +270,11 @@
   text-align: center;
   margin-bottom: 30px;
   font-size: 12px;
-  width: 300px;
+}
+@media (min-width: 450px) {
+  .hero_text {
+    font-size: 14px;
+  }
 }
 @media (min-width: 750px) {
   .hero_text {
@@ -367,9 +387,14 @@
 }
 
 .MG_span {
-  text-decoration: underline;
+  text-decoration: none;
   position: relative;
   z-index: 1;
+}
+@media (min-width: 768px) {
+  .MG_span {
+    text-decoration: underline;
+  }
 }
 
 .MG_span:hover {
