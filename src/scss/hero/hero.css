@@ -8,7 +8,6 @@
 
 .hero_container {
   max-width: 1600px;
-  height: auto;
   margin-bottom: 70px;
 }
 
@@ -186,12 +185,6 @@
     width: 50vw;
   }
 }
-@media (min-width: 1560px) {
-  .hero_triangles {
-    width: 30vw;
-  }
-}
-
 .hero_text_heading {
   color: #67182e;
   font-family: "Lato";
@@ -385,6 +378,7 @@
 }
 
 .img1 {
+  display: none;
   position: absolute;
   width: 300px;
   height: 400px;
@@ -397,4 +391,9 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+@media (min-width: 768px) {
+  .img1 {
+    display: flex;
+  }
 }/*# sourceMappingURL=hero.css.map */
