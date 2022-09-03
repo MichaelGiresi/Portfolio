@@ -346,7 +346,6 @@
 
 .hero_triangles_text {
   display: flex;
-  border: 1px solid green;
   justify-content: space-between;
   max-width: 1170px;
 }
