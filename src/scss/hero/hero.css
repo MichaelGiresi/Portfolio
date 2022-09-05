@@ -265,7 +265,7 @@
 }
 @media (min-width: 1050px) {
   .hero_triangles {
-    width: 417px;
+    width: 404px;
   }
   .hero_text_container {
     width: 410px;
@@ -277,9 +277,11 @@
   .hero_text {
     font-size: 18px;
     text-align: left;
+    margin-left: 2px;
   }
   .hero_text_heading {
     font-size: 37px;
+    margin-left: 1px;
   }
   .hero_developer {
     font-size: 145px;
@@ -290,16 +292,19 @@
 }
 @media (min-width: 1150px) {
   .hero_triangles {
-    width: 465px;
+    width: 448px;
   }
   .hero_triangles_text {
     width: 927px;
   }
   .hero_text {
     font-size: 19px;
+    margin-left: -41px;
   }
   .hero_text_heading {
     font-size: 38px;
+    margin-left: -42px;
+    margin-top: -1px;
   }
   .hero_developer {
     font-size: 160px;
@@ -310,7 +315,7 @@
 }
 @media (min-width: 1250px) {
   .hero_triangles {
-    width: 510px;
+    width: 491px;
   }
   .hero_text_container {
     width: 485px;
@@ -318,8 +323,13 @@
   .hero_triangles_text {
     width: 1012px;
   }
+  .hero_text {
+    margin-left: -9px;
+  }
   .hero_text_heading {
     font-size: 39px;
+    margin-left: -10px;
+    margin-top: -3px;
   }
   .hero_developer {
     font-size: 175px;
@@ -330,7 +340,7 @@
 }
 @media (min-width: 1350px) {
   .hero_triangles {
-    width: 537px;
+    width: 520px;
   }
   .hero_text_container {
     width: 515px;
@@ -340,10 +350,12 @@
   }
   .hero_text {
     font-size: 22px;
+    margin-left: -8px;
   }
   .hero_text_heading {
     font-size: 50px;
     text-align: left;
+    margin-top: -5px;
   }
   .hero_developer {
     font-size: 185px;
@@ -354,7 +366,7 @@
 }
 @media (min-width: 1440px) {
   .hero_triangles {
-    width: 578px;
+    width: 565px;
   }
   .hero_text_container {
     width: 560px;
@@ -367,6 +379,7 @@
     width: 600px;
     text-align: left;
     line-height: 1.4;
+    margin-top: -6px;
   }
   .hero_developer {
     font-size: 200px;
