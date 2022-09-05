@@ -385,14 +385,13 @@
   }
 }
 
-@media (min-width: 300px) {
-  .hero_text_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+.hero_text_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+
 .MG_span {
   text-decoration: none;
   position: relative;
