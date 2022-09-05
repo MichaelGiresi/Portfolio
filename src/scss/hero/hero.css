@@ -273,57 +273,6 @@
   margin-bottom: 30px;
   font-size: 12px;
 }
-@media (min-width: 450px) {
-  .hero_text {
-    font-size: 14px;
-  }
-}
-@media (min-width: 740px) {
-  .hero_text {
-    font-size: 14px;
-    margin-top: 5px;
-    margin-left: 24px;
-    text-align: left;
-  }
-}
-@media (min-width: 750px) {
-  .hero_text {
-    margin-left: -3px;
-    margin-right: 0;
-    width: auto;
-    font-size: 14px;
-    margin-top: 18px;
-  }
-}
-@media (min-width: 850px) {
-  .hero_text {
-    margin-top: 13px;
-  }
-}
-@media (min-width: 950px) {
-  .hero_text {
-    text-align: left;
-    font-size: 15px;
-    margin-top: 17px;
-    margin-left: -11px;
-  }
-}
-@media (min-width: 1050px) {
-  .hero_text {
-    font-size: 18px;
-    text-align: left;
-  }
-}
-@media (min-width: 1150px) {
-  .hero_text {
-    font-size: 19px;
-  }
-}
-@media (min-width: 1350px) {
-  .hero_text {
-    font-size: 22px;
-  }
-}
 
 .hero_text-last {
   display: none;
@@ -379,6 +328,9 @@
   .hero_triangles {
     width: 400px;
   }
+  .hero_text {
+    font-size: 14px;
+  }
 }
 @media (min-width: 740px) {
   .hero_triangles {
@@ -395,6 +347,12 @@
     margin-bottom: 6vh;
     width: 690px;
   }
+  .hero_text {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 24px;
+    text-align: left;
+  }
 }
 @media (min-width: 750px) {
   .hero_triangles {
@@ -407,6 +365,13 @@
   .hero_triangles_text {
     width: 700px;
   }
+  .hero_text {
+    margin-left: -3px;
+    margin-right: 0;
+    width: auto;
+    font-size: 14px;
+    margin-top: 18px;
+  }
 }
 @media (min-width: 850px) {
   .hero_triangles {
@@ -415,6 +380,9 @@
   .hero_text_container {
     margin-top: -10px;
     text-align: left;
+  }
+  .hero_text {
+    margin-top: 13px;
   }
 }
 @media (min-width: 860px) {
@@ -439,6 +407,12 @@
   .hero_triangles_text {
     width: 750px;
   }
+  .hero_text {
+    text-align: left;
+    font-size: 15px;
+    margin-top: 17px;
+    margin-left: -11px;
+  }
 }
 @media (min-width: 1024px) {
   .MG_span {
@@ -459,6 +433,10 @@
   .hero_triangles_text {
     width: 840px;
   }
+  .hero_text {
+    font-size: 18px;
+    text-align: left;
+  }
 }
 @media (min-width: 1150px) {
   .hero_triangles {
@@ -466,6 +444,9 @@
   }
   .hero_triangles_text {
     width: 927px;
+  }
+  .hero_text {
+    font-size: 19px;
   }
 }
 @media (min-width: 1250px) {
@@ -488,6 +469,9 @@
   }
   .hero_triangles_text {
     width: 1070px;
+  }
+  .hero_text {
+    font-size: 22px;
   }
 }
 @media (min-width: 1440px) {
