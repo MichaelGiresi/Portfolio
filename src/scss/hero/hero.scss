@@ -88,40 +88,6 @@ font-size: 48px;
 }        
 }
 
-.herotriangles{
-    width: 280px;
-    margin-bottom: 70px;
-    margin-top: 14px;
-    
-@media (min-width:740px){
-    width:200px;
-}
-@media (min-width:750px){
-    width:250px
-}
-@media (min-width:850px){
-    width:300px
-}
-@media (min-width:950px){
-    width:326px
-}
-@media (min-width:1050px){
-    width:366px
-}
-@media (min-width:1150px){
-    width:402px
-}
-@media (min-width:1250px){
-    width:440px
-}
-@media (min-width:1350px){
-    width:466px
-}
-@media (min-width:1440px){
-    width:505px;
-}
-}
-
 .hero_triangles{
     align-items: center;
     display: flex;

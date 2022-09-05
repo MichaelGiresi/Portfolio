@@ -122,57 +122,6 @@
   }
 }
 
-.herotriangles {
-  width: 280px;
-  margin-bottom: 70px;
-  margin-top: 14px;
-}
-@media (min-width: 740px) {
-  .herotriangles {
-    width: 200px;
-  }
-}
-@media (min-width: 750px) {
-  .herotriangles {
-    width: 250px;
-  }
-}
-@media (min-width: 850px) {
-  .herotriangles {
-    width: 300px;
-  }
-}
-@media (min-width: 950px) {
-  .herotriangles {
-    width: 326px;
-  }
-}
-@media (min-width: 1050px) {
-  .herotriangles {
-    width: 366px;
-  }
-}
-@media (min-width: 1150px) {
-  .herotriangles {
-    width: 402px;
-  }
-}
-@media (min-width: 1250px) {
-  .herotriangles {
-    width: 440px;
-  }
-}
-@media (min-width: 1350px) {
-  .herotriangles {
-    width: 466px;
-  }
-}
-@media (min-width: 1440px) {
-  .herotriangles {
-    width: 505px;
-  }
-}
-
 .hero_triangles {
   align-items: center;
   display: flex;
