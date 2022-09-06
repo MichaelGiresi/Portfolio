@@ -56,8 +56,12 @@ const Hero = () => {
         <img className='hero_triangles' src={trianglegrid}/>
         <div className='hero_text_container'>
           <div className='hero_text_heading' ref={hthRef}>Nice to meet you, I'm <span className='MG_span'><img className="img1" src={selfie}/>Michael Giresi</span></div>
-          <div className='hero_text' ref={htRef}>I’ve lived in New York my whole life, but the unexplainable guides me. New experiences, places, people and events. Towards tragedies and comedies, drama and mystery. Often repeated, but sometimes new, my body leaps with excitement at the thought. The thought of the unexplainable, explained through the teachings of a foreign moment. So I search, compass ready, guiding me towards the unknown. </div>
-          <div className='hero_text-last'>Lorem ipsum dolor sit amet. Itaque facere, excepturi exercitationem porro qui fuga! Voluptate, accusamus, eos esse laborum sunt minima obcaecati incidunt architecto officia illum quam placeat asperiores dicta repudiandae, deleniti sapiente id saepe commodi! Aliquid laudantium quod odit perferendis ea iure facilis. Expedita, explicabo? Unde, accusamus reprehenderit.</div>
+          <div className='hero_text' ref={htRef}>
+          I'm an orchestral trumpet player, who was unable to perform during the pandemic. 
+          I have a history of interest in computers, so I dove head first into the world 
+          of programing. I also have years of field management experience in the construction 
+          industry, primarialy in Manhattan and Long Island. I use this diverse set of skills to
+          find solutions to problems. </div>
         </div>
       </div>
     </div>
