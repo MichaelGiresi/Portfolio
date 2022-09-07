@@ -12,7 +12,7 @@ const Output = () => {
     <div className="output">
         <Nav/>
         <Hero/>
-        <FeaturedProjects/> 
+        {/* <FeaturedProjects/>  */}
         {/* <MoreProjects/> */}
         {/* <CurrentSkill/> */}
         {/* <Footer/> */}
