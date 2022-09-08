@@ -6,7 +6,6 @@
 
 .fp-h1-container {
     margin-bottom: 5px;
-    
 }
 
 .fp {
@@ -15,7 +14,6 @@
     font-size: 17px;
     color: #67182e;
     letter-spacing: 2px;
-    
 }
 
 .nav_separator-fp {
@@ -27,17 +25,16 @@
     display: flex;
     margin: 0;  
     justify-content: space-between; 
-
+    width: 100%;
 }
+
 .fp-info1-title-container {
-display: flex;
-flex-direction: column;
-width: 16vw;
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
 }
 
 .fp-info1-title {
-    // border: blue 2px dotted;
-    // width:25%;
     font-family: 'Lato';
     color: #67182e;
     font-size: calc(1px + 8vw);
@@ -46,9 +43,6 @@ width: 16vw;
     font-style: normal;
     line-height: 1.05;
     letter-spacing: normal;
-    // float:left;
-    // margin-left: 15px;
-    // white-space: pre-wrap;
     @media (min-width:600px){
         font-size: 50px;
     }
@@ -65,8 +59,6 @@ width: 16vw;
 }
 
 .fp-info1-info {
-    // border: green 2px dotted;
-    // height: 16.3vh;
     width:50%;
     float: right;  
     display: flex;
@@ -74,43 +66,16 @@ width: 16vw;
 }
 
 .fp-info1-info-p {
-    // border: green 2px dotted;
-    // height: 80%;
     font-family: 'Lato';
     line-height: 20px;
     width: 45%;
     font-size: 14px;
     margin-top: 10px;
-    
-    // @media (min-width: 900px){
-    //     margin-left:20px
-    // }
-    // @media(min-width: 1200px){
-    //     margin-left:20px
-    // }
-    // @media(min-width: 1300px){
-    //     margin-left:26px
-    // }
     @media (min-width: 1400px){
-        // margin-left: 28px;
         width: 400px;
     }
-    // @media(min-width: 1800px){
-    //     margin-left:16px
-    // }
-    // @media(min-width: 1830px){
-    //     margin-left:5px
-    // }
-    // @media(min-width: 1870px){
-    //     margin-left:-12px
-    // }
-    // @media(min-width: 1900px){
-    //     margin-left:-22px
-    // }
-    // @media(min-width: 1920px){
-    //     margin-left:-29px
-    // }
 }
+
 .fp-info1-info-p-span{
     color: #67182e;
     font-weight: 700;
@@ -118,30 +83,23 @@ width: 16vw;
 }
 
 .fp-info1-info-roles {
-    // border: green 2px dotted;
-    // height: 8%;
     width: 45%;
     margin-top: 10px;
     font-family: 'Lato';
     margin-left: 35px;
     line-height: 22px;
-
 }
 
 .fp-showcase-container {
-    // border: #67182e 2px dotted;
-    // height: 444px;
     margin: 25px 15px 30px 15px;
     display: flex;
     justify-content: center;
     @media (min-width: 900px){
         justify-content: space-around;
     }
-
 }
 
 .fp-showcase-1-mbs {
-    // border: blue 2px dashed;
     background-image: url(../../assets/mbs-png.png);
     background-size:100% 100%;
     width: 49%;
@@ -169,17 +127,14 @@ width: 16vw;
 }
 
 .fp-showcase-2-mbs {
-    // border: blue 2px dashed;
     background-color: white;
     width: 49%;
-    // display: none;
     height: 100%;
     @media (min-width:500px){
         display: none;
     }
     @media (min-width:900px){
         display: none;
-        // width: 45vw;
         background-image: url(../../assets/mbs2.png);
         background-size:100% 100%;
         width:400px;
@@ -202,7 +157,6 @@ width: 16vw;
 }
 
 .fp-showcase-1-algo {
-    // border: blue 2px dashed;
     background-image: url(../../assets/algorythmia-png.png);
     background-size:100% 100%;
     width: 49%;
@@ -212,13 +166,10 @@ width: 16vw;
     justify-content: center;    
     @media (min-width:500px){
         width: 500px;
-        // height: 300px;
     }
     @media (min-width:900px){
         width:500px;
-        // height: 300px;
     }
-
     @media (min-width:1300px){
         width:600px;
         height:338px;
@@ -230,17 +181,14 @@ width: 16vw;
 }
 
 .fp-showcase-2-algo {
-    // border: blue 2px dashed;
     background-color: white;
     width: 49%;
-    // display: none;
     height: 281px;
     @media (min-width:500px){
         display: none;
     }
     @media (min-width:900px){
         display: none;
-        // width: 45vw;
         background-image: url(../../assets/algorythmia2.png);
         background-size:100% 100%;
         width:400px;
@@ -251,7 +199,6 @@ width: 16vw;
         width:500px;
         height:281px;
     }
-
     @media (min-width:1300px){
         width:600px;
         height:338px;
@@ -261,7 +208,6 @@ width: 16vw;
         height:394px;
     }
 }
-
 
 .fp-showcase-button {
     background-color: #67182e;
@@ -277,6 +223,7 @@ width: 16vw;
     justify-content: center;
     align-items: center;
 }
+
 .fp-showcase-button:hover {
     color: black;
     transition: .3s;
