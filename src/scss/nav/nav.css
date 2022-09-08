@@ -33,11 +33,6 @@
   max-width: 1600px;
   margin-bottom: 5vh;
 }
-@media (min-width: 1400px) {
-  .nav_separator {
-    margin-bottom: 115px;
-  }
-}
 
 .monogram {
   width: 44px;
