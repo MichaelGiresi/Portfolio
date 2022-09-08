@@ -26,58 +26,57 @@
   margin: 0;
   justify-content: space-between;
   width: 100%;
+  flex-direction: column;
 }
 
 .fp-info1-title-container {
   display: flex;
   flex-direction: column;
-  width: 16vw;
 }
 
 .fp-info1-title {
   font-family: "Lato";
   color: #67182e;
-  font-size: calc(1px + 8vw);
   font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.05;
-  letter-spacing: normal;
+  margin-bottom: 0px;
+  text-align: center;
 }
-@media (min-width: 600px) {
-  .fp-info1-title {
-    font-size: 50px;
-  }
+
+.fp-info1-year {
+  margin-top: 0px;
+  text-align: center;
 }
-@media (min-width: 900px) {
-  .fp-info1-title {
-    font-size: 50px;
-  }
-}
-@media (min-width: 1080px) {
-  .fp-info1-title {
-    font-size: 60px;
-  }
+
+#fp-info1-roles-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  width: 278px;
+  margin: 0 auto 0 auto;
 }
 
 .fp-info1-info {
-  width: 50%;
-  float: right;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
 }
 
 .fp-info1-info-p {
   font-family: "Lato";
   line-height: 20px;
-  width: 45%;
   font-size: 14px;
   margin-top: 10px;
+  text-align: center;
 }
 @media (min-width: 1400px) {
   .fp-info1-info-p {
     width: 400px;
   }
+}
+
+#mbs-info-span {
+  display: none;
 }
 
 .fp-info1-info-p-span {
@@ -87,17 +86,16 @@
 }
 
 .fp-info1-info-roles {
-  width: 45%;
   margin-top: 10px;
   font-family: "Lato";
-  margin-left: 35px;
   line-height: 22px;
 }
 
 .fp-showcase-container {
-  margin: 25px 15px 30px 15px;
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
 }
 @media (min-width: 900px) {
   .fp-showcase-container {
@@ -108,8 +106,8 @@
 .fp-showcase-1-mbs {
   background-image: url(../../assets/mbs-png.png);
   background-size: 100% 100%;
-  width: 49%;
-  height: 100%;
+  width: 278px;
+  height: 156.38px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -140,6 +138,7 @@
 }
 
 .fp-showcase-2-mbs {
+  display: none;
   background-color: white;
   width: 49%;
   height: 100%;
@@ -251,8 +250,8 @@
 
 .fp-showcase-button {
   background-color: #67182e;
-  width: 40%;
-  height: 50px;
+  width: 169px;
+  height: 40px;
   border-radius: 0.25rem;
   color: white;
   font-family: "Lato";
