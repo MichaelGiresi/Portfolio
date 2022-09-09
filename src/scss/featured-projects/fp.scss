@@ -67,9 +67,6 @@
     font-size: 14px;
     margin-top: 10px;
     text-align: center;
-    @media (min-width: 1400px){
-        width: 400px;
-    }
 }
 
 #mbs-info-span {
@@ -93,9 +90,6 @@
     justify-content: center;
     margin-bottom: 30px;
     margin-top: 10px;
-    @media (min-width: 900px){
-        justify-content: space-around;
-    }
 }
 
 .fp-showcase-1-mbs {
@@ -106,23 +100,6 @@
     display: flex;
     align-items: center;
     justify-content: center;    
-    @media (min-width:500px){
-        width: 500px;
-        height: 300px;
-    }
-    @media (min-width:900px){
-        width:500px;
-        height: 300px;
-    }
-
-    @media (min-width:1300px){
-        width:600px;
-        height:350px;
-    }
-    @media (min-width:1400px){
-        width:700px;
-        height:450px;
-    }
 }
 
 .fp-showcase-2-mbs {
@@ -130,9 +107,6 @@
     background-color: white;
     width: 49%;
     height: 100%;
-    @media (min-width:500px){
-        display: none;
-    }
     @media (min-width:900px){
         display: none;
         background-image: url(../../assets/mbs2.png);
@@ -143,16 +117,7 @@
     @media (min-width:1000px){
         display:flex;
         width:500px;
-        height:300px;
-    }
-
-    @media (min-width:1300px){
-        width:600px;
-        height:350px;
-    }
-    @media (min-width:1400px){
-        width:700px;
-        height:450px;
+        height:281px;
     }
 }
 
@@ -164,29 +129,12 @@
     display: flex;
     align-items: center;
     justify-content: center;    
-    @media (min-width:500px){
-        width: 500px;
-    }
-    @media (min-width:900px){
-        width:500px;
-    }
-    @media (min-width:1300px){
-        width:600px;
-        height:338px;
-    }
-    @media (min-width:1400px){
-        width:700px;
-        height:394px;
-    }
 }
 
 .fp-showcase-2-algo {
     background-color: white;
     width: 49%;
     height: 281px;
-    @media (min-width:500px){
-        display: none;
-    }
     @media (min-width:900px){
         display: none;
         background-image: url(../../assets/algorythmia2.png);
@@ -198,14 +146,6 @@
         display:flex;
         width:500px;
         height:281px;
-    }
-    @media (min-width:1300px){
-        width:600px;
-        height:338px;
-    }
-    @media (min-width:1400px){
-        width:700px;
-        height:394px;
     }
 }
 

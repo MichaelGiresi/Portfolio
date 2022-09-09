@@ -69,11 +69,6 @@
   margin-top: 10px;
   text-align: center;
 }
-@media (min-width: 1400px) {
-  .fp-info1-info-p {
-    width: 400px;
-  }
-}
 
 #mbs-info-span {
   display: none;
@@ -97,11 +92,6 @@
   margin-bottom: 30px;
   margin-top: 10px;
 }
-@media (min-width: 900px) {
-  .fp-showcase-container {
-    justify-content: space-around;
-  }
-}
 
 .fp-showcase-1-mbs {
   background-image: url(../../assets/mbs-png.png);
@@ -112,41 +102,12 @@
   align-items: center;
   justify-content: center;
 }
-@media (min-width: 500px) {
-  .fp-showcase-1-mbs {
-    width: 500px;
-    height: 300px;
-  }
-}
-@media (min-width: 900px) {
-  .fp-showcase-1-mbs {
-    width: 500px;
-    height: 300px;
-  }
-}
-@media (min-width: 1300px) {
-  .fp-showcase-1-mbs {
-    width: 600px;
-    height: 350px;
-  }
-}
-@media (min-width: 1400px) {
-  .fp-showcase-1-mbs {
-    width: 700px;
-    height: 450px;
-  }
-}
 
 .fp-showcase-2-mbs {
   display: none;
   background-color: white;
   width: 49%;
   height: 100%;
-}
-@media (min-width: 500px) {
-  .fp-showcase-2-mbs {
-    display: none;
-  }
 }
 @media (min-width: 900px) {
   .fp-showcase-2-mbs {
@@ -161,19 +122,7 @@
   .fp-showcase-2-mbs {
     display: flex;
     width: 500px;
-    height: 300px;
-  }
-}
-@media (min-width: 1300px) {
-  .fp-showcase-2-mbs {
-    width: 600px;
-    height: 350px;
-  }
-}
-@media (min-width: 1400px) {
-  .fp-showcase-2-mbs {
-    width: 700px;
-    height: 450px;
+    height: 281px;
   }
 }
 
@@ -186,38 +135,11 @@
   align-items: center;
   justify-content: center;
 }
-@media (min-width: 500px) {
-  .fp-showcase-1-algo {
-    width: 500px;
-  }
-}
-@media (min-width: 900px) {
-  .fp-showcase-1-algo {
-    width: 500px;
-  }
-}
-@media (min-width: 1300px) {
-  .fp-showcase-1-algo {
-    width: 600px;
-    height: 338px;
-  }
-}
-@media (min-width: 1400px) {
-  .fp-showcase-1-algo {
-    width: 700px;
-    height: 394px;
-  }
-}
 
 .fp-showcase-2-algo {
   background-color: white;
   width: 49%;
   height: 281px;
-}
-@media (min-width: 500px) {
-  .fp-showcase-2-algo {
-    display: none;
-  }
 }
 @media (min-width: 900px) {
   .fp-showcase-2-algo {
@@ -233,18 +155,6 @@
     display: flex;
     width: 500px;
     height: 281px;
-  }
-}
-@media (min-width: 1300px) {
-  .fp-showcase-2-algo {
-    width: 600px;
-    height: 338px;
-  }
-}
-@media (min-width: 1400px) {
-  .fp-showcase-2-algo {
-    width: 700px;
-    height: 394px;
   }
 }
 
