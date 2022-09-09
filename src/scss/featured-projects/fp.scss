@@ -239,7 +239,7 @@
     .fp-info1-container {
         flex-direction: row;
         margin: 0 auto 0 auto;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .fp-info1-info {
@@ -283,7 +283,8 @@
     }
 
     .fp-showcase-container {
-        justify-content: space-around;
+        justify-content: space-between;
+        margin-bottom: 33px;
     }
 
     #fp-info1-roles-container {
@@ -298,10 +299,6 @@
 
     .nav_separator-fp {
         margin-bottom: 13px;
-    }
-
-    .fp-showcase-container {
-        margin-bottom: 33px;
     }
 
     .fp-info2-title {
@@ -348,6 +345,10 @@
         line-height: 20px;
         font-family: 'Lato';
         margin-top: 10px;
+    }
+
+    .fp-container {
+        width: 690px;
     }
 }
 
