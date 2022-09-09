@@ -264,7 +264,7 @@
   }
   .fp-showcase-2 {
     display: flex;
-    width: 331px;
+    width: 330px;
     height: 186.19px;
   }
   .fp-showcase-container {
@@ -293,7 +293,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .fp-info2-info {
     display: flex;
@@ -305,6 +305,7 @@
   .fp-info2-info-p {
     margin-top: 10px;
     margin-bottom: 14px;
+    margin-left: 1px;
     font-size: 14px;
     font-family: "Lato";
     width: 50%;
