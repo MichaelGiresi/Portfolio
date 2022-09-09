@@ -16,7 +16,7 @@ const FeaturedProjects = () => {
         <div className='fp-info1-info'>
           <p className='fp-info1-info-p'>Matchbox Stickers is a limited quanity e-commerce website. <span id="mbs-info-span">Talented artists from around the world sell a limited quanity of their creations.</span></p>
           <div id="fp-info1-roles-container">
-            <p className='fp-info1-info-roles'>MY ROLE<br /><strong>Devlopment</strong></p>
+            <p className='fp-info1-info-roles'>MY ROLE<br /><strong>Development</strong></p>
             <p className='fp-info1-info-roles'>ALEX SEVERINO<br/><strong>Design</strong></p>
           </div>
         </div>

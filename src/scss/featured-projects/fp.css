@@ -259,11 +259,13 @@
     width: 330px;
   }
   .fp-showcase-1 {
-    width: 330px;
-    height: 185.63px;
+    width: 331px;
+    height: 186.19px;
   }
   .fp-showcase-2 {
     display: flex;
+    width: 331px;
+    height: 186.19px;
   }
   .fp-showcase-container {
     justify-content: space-around;
@@ -284,6 +286,7 @@
   }
   .fp-info2-title {
     text-align: left;
+    margin-top: 7px;
   }
   .fp-info2-year {
     text-align: left;
@@ -296,9 +299,27 @@
   }
   .fp-info2-info {
     display: flex;
-    width: 330px;
+    width: 331px;
   }
   .fp-info2-title-container {
-    width: 330px;
+    width: 331px;
+  }
+  .fp-info2-info-p {
+    margin-top: 10px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    font-family: "Lato";
+    width: 50%;
+    text-align: left;
+  }
+  #fp-info2-roles-container {
+    width: 50%;
+    font-size: 12px;
+  }
+  .fp-info2-info-roles {
+    font-size: 12px;
+    line-height: 20px;
+    font-family: "Lato";
+    margin-top: 10px;
   }
 }/*# sourceMappingURL=fp.css.map */
