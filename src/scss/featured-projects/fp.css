@@ -200,12 +200,27 @@
   text-align: center;
 }
 
+.fp-showcase-2 {
+  display: none;
+  background-size: 100% 100%;
+  width: 330px;
+  height: 185.63;
+}
+
 #fp-showcase-mbs-1 {
   background-image: url(../../assets/mbs-png.png);
 }
 
 #fp-showcase-algo-1 {
   background-image: url(../../assets/algorythmia-png.png);
+}
+
+#fp-showcase-mbs-2 {
+  background-image: url(../../assets/mbs2.png);
+}
+
+#fp-showcase-algo-2 {
+  background-image: url(../../assets/algorythmia2.png);
 }
 
 @media (min-width: 450px) {
@@ -217,12 +232,12 @@
 @media (min-width: 740px) {
   .fp-info1-container {
     flex-direction: row;
-    width: 690px;
     margin: 0 auto 0 auto;
+    justify-content: space-around;
   }
   .fp-info1-info {
     flex-direction: row;
-    width: 356px;
+    width: 330px;
   }
   .fp {
     text-align: left;
@@ -237,9 +252,53 @@
   }
   .fp-info1-info-p {
     font-size: 14px;
-    width: 100px;
+    text-align: left;
+    width: 50%;
   }
   .fp-info1-title-container {
+    width: 330px;
+  }
+  .fp-showcase-1 {
+    width: 330px;
+    height: 185.63px;
+  }
+  .fp-showcase-2 {
+    display: flex;
+  }
+  .fp-showcase-container {
+    justify-content: space-around;
+  }
+  #fp-info1-roles-container {
+    width: 50%;
+    font-size: 14px;
+  }
+  .fp-info1-info-roles {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .nav_separator-fp {
+    margin-bottom: 13px;
+  }
+  .fp-showcase-container {
+    margin-bottom: 33px;
+  }
+  .fp-info2-title {
+    text-align: left;
+  }
+  .fp-info2-year {
+    text-align: left;
+  }
+  .fp-info2-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .fp-info2-info {
+    display: flex;
+    width: 330px;
+  }
+  .fp-info2-title-container {
     width: 330px;
   }
 }/*# sourceMappingURL=fp.css.map */
