@@ -303,7 +303,7 @@
 
     .fp-info2-title {
         text-align: left;
-        margin-top: 7px;
+        margin-top: 2px;
     }
 
     .fp-info2-year {
@@ -319,7 +319,7 @@
 
     .fp-info2-info {
         display: flex;
-        width: 331px;
+        width: 330px;
     }
 
     .fp-info2-title-container {
@@ -353,36 +353,142 @@
     }
 }
 
-@media (min-width:750px){
+// @media (min-width:750px){
 
-}
 
-@media (min-width:850px){
 
-}
+// }
 
-@media (min-width: 860px) {
+// @media (min-width:850px){
 
-}
+// }
 
-@media (min-width:900px){
+// @media (min-width: 860px) {
 
-}
+// }
+
+// @media (min-width:900px){
+
+// }
 
 @media (min-width:950px){
+    .fp-container {
+        width: 750px;
+    }
 
+    .fp-info1-title-container {
+        width: 360px;
+    }
+
+    .fp-info1-info {
+        width: 363px;
+    }
+
+    .fp-showcase-1 {
+        width: 360px;
+        height: 202.5px;
+    }
+
+    .fp-showcase-2 {
+        width: 363px;
+        height: 204.19px;
+    }
+
+    .fp-info2-info {
+        width: 363px;
+    }
 }
 
-@media (min-width: 1024px) {
+// @media (min-width: 1024px) {
 
-}
+// }
 
 @media (min-width:1050px){
+    .fp-container {
+        width: 840px;
+    }
+    
+    .fp-showcase-1 {
+        width: 404px;
+        height: 227.25px;
+    }
 
+    .fp-info1-title-container {
+        width: 404px;
+    }
+
+    .fp-info1-title {
+        font-size: 38px;
+    }
+
+    .fp-showcase-2 {
+        width: 410px;
+        height: 230.63px;
+    }
+
+    .fp-info1-info {
+        width: 410px;
+    }
+
+    .fp-info2-title-container {
+        width: 404px;
+    }
+
+    .fp-info2-title {
+        font-size: 38px;
+    }
+
+    .fp-info2-info {
+        width: 410px;
+    }
 }
 
 @media (min-width:1150px){
+    .fp-container {
+        width: 927px;
+    }
 
+    .fp-showcase-1 {
+        width: 448px;
+        height: 252px;
+    }
+
+    .fp-info1-title-container {
+        width: 404px;
+    }
+
+    .fp-info1-title {
+        font-size: 38px;
+    }
+
+    .fp-showcase-2 {
+        width: 451px;
+        height: 253.69px;
+    }
+
+    .fp-info1-info {
+        width: 451px;
+    }
+
+    .fp-info2-title-container {
+        width: 404px;
+    }
+
+    .fp-info2-title {
+        font-size: 38px;
+    }
+
+    .fp-info2-info {
+        width: 410px;
+    }
+
+    .fp-info1-info-p {
+        font-size: 15px;
+    }
+
+    .fp-info1-info-roles {
+        font-size: 14px;
+    }
 }
 
 @media (min-width:1250px){
