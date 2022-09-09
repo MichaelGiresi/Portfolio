@@ -14,6 +14,7 @@
   font-size: 17px;
   color: #67182e;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 .nav_separator-fp {
@@ -93,8 +94,7 @@
   margin-top: 10px;
 }
 
-.fp-showcase-1-mbs {
-  background-image: url(../../assets/mbs-png.png);
+.fp-showcase-1 {
   background-size: 100% 100%;
   width: 278px;
   height: 156.38px;
@@ -176,4 +176,58 @@
 .fp-showcase-button:hover {
   color: black;
   transition: 0.3s;
+}
+
+.fp-info2-title {
+  color: #67182e;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.fp-info2-year {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.fp-info2-info-p {
+  text-align: center;
+}
+
+#fp-info2-roles-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#fp-showcase-mbs-1 {
+  background-image: url(../../assets/mbs-png.png);
+}
+
+#fp-showcase-algo-1 {
+  background-image: url(../../assets/algorythmia-png.png);
+}
+
+@media (min-width: 450px) {
+  .fp-showcase-1 {
+    width: 405px;
+    height: 227.81px;
+  }
+}
+@media (min-width: 740px) {
+  .fp-info1-container {
+    flex-direction: row;
+  }
+  .fp-info1-info {
+    flex-direction: row;
+  }
+  .fp {
+    text-align: left;
+  }
+  .fp-info1-title {
+    text-align: left;
+  }
+  .fp-info1-year {
+    text-align: left;
+  }
 }/*# sourceMappingURL=fp.css.map */

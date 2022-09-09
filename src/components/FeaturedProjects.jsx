@@ -22,8 +22,8 @@ const FeaturedProjects = () => {
         </div>
       </div>
       <div className='fp-showcase-container'>
-        <div className='fp-showcase-1-mbs'><a href='https://tranquil-druid-afa7cd.netlify.app/' rel='noopener' target = '_blank' className='fp-showcase-button'>VISIT THE SITE</a></div>
-        <div className='fp-showcase-2-mbs'></div>
+        <div className='fp-showcase-1' id="fp-showcase-mbs-1"><a href='https://tranquil-druid-afa7cd.netlify.app/' rel='noopener' target = '_blank' className='fp-showcase-button'>VISIT THE SITE</a></div>
+        <div className='fp-showcase-2' id="fp-showcase-mbs-2"></div>
       </div>
       <div className='nav_separator-fp'></div>
       <div className='fp-info2-container'>
@@ -33,12 +33,15 @@ const FeaturedProjects = () => {
         </div>
         <div className='fp-info2-info'>
           <p className='fp-info2-info-p'>Algorythmia is a brand focused e-commerce website.</p>
-          <p className='fp-info2-info-roles'>MY ROLE<br/> <strong>Development</strong><br/><br/>ALEX SEVERINO<br/><strong>Design</strong></p>
+          <div id="fp-info2-roles-container">
+            <p className='fp-info2-info-roles'>MY ROLE<br/><strong>Development</strong></p>
+            <p className='fp-info2-info-roles'>ALEX SEVERINO<br/><strong>Design</strong></p>
+          </div>
         </div>
       </div>
       <div className='fp-showcase-container'>
-        <div className='fp-showcase-2-algo'><a href='https://vocal-fox-15be3e.netlify.app/' rel='noopener' target = '_blank' className='fp-showcase-button'>VISIT THE SITE</a></div>
-        <div className='fp-showcase-2-algo'></div>
+        <div className='fp-showcase-1' id="fp-showcase-algo-1"><a href='https://vocal-fox-15be3e.netlify.app/' rel='noopener' target = '_blank' className='fp-showcase-button'>VISIT THE SITE</a></div>
+        <div className='fp-showcase-2' id="fp-showcase-algo-2"></div>
       </div>
     </div>
   )
