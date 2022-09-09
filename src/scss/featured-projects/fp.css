@@ -217,17 +217,29 @@
 @media (min-width: 740px) {
   .fp-info1-container {
     flex-direction: row;
+    width: 690px;
+    margin: 0 auto 0 auto;
   }
   .fp-info1-info {
     flex-direction: row;
+    width: 356px;
   }
   .fp {
     text-align: left;
   }
   .fp-info1-title {
     text-align: left;
+    font-size: 31px;
+    margin-top: 7px;
   }
   .fp-info1-year {
     text-align: left;
+  }
+  .fp-info1-info-p {
+    font-size: 14px;
+    width: 100px;
+  }
+  .fp-info1-title-container {
+    width: 330px;
   }
 }/*# sourceMappingURL=fp.css.map */
