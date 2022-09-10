@@ -55,13 +55,13 @@ const Hero = () => {
       <div className='hero_triangles_text'>
         <img className='hero_triangles' src={trianglegrid}/>
         <div className='hero_text_container'>
-          <div className='hero_text_heading' ref={hthRef}>Nice to meet you, I'm <span className='MG_span'><img className="img1" src={selfie}/>Michael Giresi</span></div>
-          <div className='hero_text' ref={htRef}>
+          <h1 className='hero_text_heading' ref={hthRef}>Nice to meet you, I'm <span className='MG_span'><img className="img1" src={selfie}/>Michael Giresi</span></h1>
+          <p className='hero_text' ref={htRef}>
           As an orchestral trumpet player, I was unable to perform during the pandemic. 
           I have a history of interest in computers, so I dove head first into the world 
           of programing. Also, I have years of field management experience in the construction 
           industry, primarily in Manhattan and Long Island. These diverse set of skills help me 
-          find creative solutions to problems. </div>
+          find creative solutions to problems. </p>
         </div>
       </div>
     </div>

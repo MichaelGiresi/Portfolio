@@ -159,7 +159,11 @@
     }
 
     .hero_text_container {
-        width: 356px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 330px;
+        height: 269px;
     }
 
     .hero_triangles_text {
@@ -173,10 +177,11 @@
     .hero_text {
         font-size: 14px;
         margin-top: 5px;
-        margin-left: 27px;
+        margin-left: 0;
         text-align: left;
         width: auto;
-        line-height: 1.591;
+        line-height: 1.786;
+        margin-bottom: 0;
     }
 
     .hero_text_heading {
@@ -184,8 +189,10 @@
         text-align: left;
         line-height: 1.3;
         width: auto;
-        margin-top: -10px;
-        margin-left: 25px;
+        height: 89px;
+        margin-top: -11px;
+        margin-bottom: 0;
+        margin-left: -2px;
     }
 }
 
