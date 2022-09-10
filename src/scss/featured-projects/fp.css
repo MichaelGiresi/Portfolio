@@ -15,6 +15,7 @@
   color: #67182e;
   letter-spacing: 2px;
   text-align: center;
+  margin-left: -1px;
 }
 
 .nav_separator-fp {
@@ -61,6 +62,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  width: 278px;
 }
 
 .fp-info1-info-p {
@@ -237,7 +239,7 @@
   }
   .fp-info1-info {
     flex-direction: row;
-    width: 330px;
+    width: 329px;
   }
   .fp {
     text-align: left;
@@ -246,6 +248,7 @@
     text-align: left;
     font-size: 31px;
     margin-top: 7px;
+    margin-left: -2px;
   }
   .fp-info1-year {
     text-align: left;
@@ -272,8 +275,8 @@
     margin-bottom: 33px;
   }
   #fp-info1-roles-container {
-    width: 50%;
-    font-size: 14px;
+    width: 55%;
+    font-size: 11px;
   }
   .fp-info1-info-roles {
     font-size: 12px;
@@ -305,7 +308,7 @@
   .fp-info2-info-p {
     margin-top: 10px;
     margin-bottom: 14px;
-    margin-left: 1px;
+    margin-left: 0px;
     font-size: 14px;
     font-family: "Lato";
     width: 50%;
