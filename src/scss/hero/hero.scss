@@ -332,12 +332,13 @@
 
 @media (min-width:1050px){
     .hero_triangles {
-        width: 404px;
+        width: 406px;
     }
 
     .hero_text_container {
-        width: 410px;
+        width: 405px;
         margin-right: 0px;
+        height: 341px;
     }
 
     .hero_triangles_text {
@@ -347,13 +348,14 @@
     .hero_text {
         font-size: 18px;
         text-align: left;
-        margin-left: 2px;
+        margin-left: -1px;
         line-height: 1.592;
+        margin-top: 33.7px;
     }
 
     .hero_text_heading {
         font-size: 37px;
-        margin-left: 1px;
+        margin-left: -3px;
         margin-top: -2px;
     }
 
