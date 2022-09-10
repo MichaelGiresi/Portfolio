@@ -409,7 +409,7 @@
   .hero_text {
     line-height: 1.75;
     font-size: 24px;
-    margin-left: -4px;
+    margin-left: 0px;
   }
   .hero_text_heading {
     font-size: 46px;
