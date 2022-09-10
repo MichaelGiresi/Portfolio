@@ -315,20 +315,23 @@
 }
 @media (min-width: 1150px) {
   .hero_triangles {
+    width: 449px;
+  }
+  .hero_text_container {
     width: 448px;
   }
   .hero_triangles_text {
     width: 927px;
   }
   .hero_text {
-    font-size: 20px;
-    margin-left: -41px;
-    line-height: 1.643;
+    font-size: 19px;
+    margin-left: -1px;
+    line-height: 1.74;
   }
   .hero_text_heading {
     font-size: 38px;
-    margin-left: -42px;
-    margin-top: -1px;
+    margin-left: -3px;
+    margin-top: -2px;
   }
   .hero_developer {
     font-size: 160px;
