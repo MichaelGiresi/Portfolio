@@ -328,6 +328,28 @@
     width: 690px;
   }
 }
+@media (min-width: 750px) {
+  .fp-info1-info {
+    width: 331px;
+  }
+}
+@media (min-width: 850px) {
+  .fp-container {
+    width: 694px;
+  }
+  .fp-showcase-1 {
+    width: 333px;
+  }
+  .fp-showcase-2 {
+    width: 331px;
+  }
+  .fp-info1-info {
+    width: 332px;
+  }
+  .fp-info2-info {
+    width: 331px;
+  }
+}
 @media (min-width: 950px) {
   .fp-container {
     width: 750px;
