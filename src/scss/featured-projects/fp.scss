@@ -403,21 +403,21 @@
     }
 
     .fp-info1-info {
-        width: 363px;
+        width: 361px;
     }
 
     .fp-showcase-1 {
-        width: 360px;
+        width: 361px;
         height: 202.5px;
     }
 
     .fp-showcase-2 {
-        width: 363px;
+        width: 360px;
         height: 204.19px;
     }
 
     .fp-info2-info {
-        width: 363px;
+        width: 360px;
     }
 }
 
@@ -431,7 +431,7 @@
     }
     
     .fp-showcase-1 {
-        width: 404px;
+        width: 406px;
         height: 227.25px;
     }
 
@@ -444,12 +444,12 @@
     }
 
     .fp-showcase-2 {
-        width: 410px;
+        width: 405px;
         height: 230.63px;
     }
 
     .fp-info1-info {
-        width: 410px;
+        width: 406px;
     }
 
     .fp-info2-title-container {
@@ -461,7 +461,7 @@
     }
 
     .fp-info2-info {
-        width: 410px;
+        width: 406px;
     }
 }
 
@@ -471,7 +471,7 @@
     }
 
     .fp-showcase-1 {
-        width: 448px;
+        width: 449px;
         height: 252px;
     }
 
@@ -484,12 +484,12 @@
     }
 
     .fp-showcase-2 {
-        width: 451px;
-        height: 253.69px;
+        width: 449px;
+        height: 252px;
     }
 
     .fp-info1-info {
-        width: 451px;
+        width: 450px;
     }
 
     .fp-info2-title-container {
@@ -501,7 +501,7 @@
     }
 
     .fp-info2-info {
-        width: 410px;
+        width: 449px;
     }
 
     .fp-info1-info-p {
@@ -514,7 +514,25 @@
 }
 
 @media (min-width:1250px){
+    .fp-container {
+        width: 1014px;
+    }
 
+    .fp-showcase-1 {
+        width: 493px;
+    }
+
+    .fp-showcase-2 {
+        width: 492px;
+    }
+
+    .fp-info1-info {
+        width: 493px;
+    }
+
+    .fp-info2-info {
+        width: 492px;
+    }
 }
 
 @media (min-width:1350px){
