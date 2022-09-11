@@ -1,46 +1,123 @@
 .cs {
-  max-width: 1440px;
+  max-width: 1600px;
   margin: 0 auto 0 auto;
+  width: 98%;
 }
 
 .cs-container {
-  height: 300px;
-  margin: 15px 15px 40px 15px;
+  margin: 20px 0 0 0;
   display: flex;
-  justify-content: end;
-}
-@media (max-width: 580px) {
-  .cs-container {
-    height: auto;
-  }
+  justify-content: center;
+  text-align: center;
 }
 
 .cs-wrapper {
   height: 100%;
-  width: 49%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
 .cs-h3 {
-  font-size: 40px;
+  font-size: 32px;
   font-family: "Lato";
   margin: 0 0 0 0;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.5;
+  line-height: 2.5;
   letter-spacing: 2px;
-}
-@media (max-width: 580px) {
-  .cs-h3 {
-    font-size: 35px;
-  }
 }
 
 .cs-divider {
   background-color: black;
   height: 1px;
-  margin-right: 15px;
+}
+
+.mp-more-projects {
+  font-family: Lato;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  color: #111;
+  margin: 15px 0 0 15px;
+  padding: 0 0 0 0;
+}
+
+.mp-divider {
+  background-color: black;
+  height: 1px;
+}
+
+.mp-more-projects {
+  font-family: Lato;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  color: #111;
+  margin: 0 auto 5px auto;
+  padding: 0 0 0 0;
+  text-align: center;
+}
+
+@media (min-width: 550px) {
+  .cs-h3 {
+    font-size: 34px;
+  }
+}
+@media (min-width: 650px) {
+  .cs-h3 {
+    font-size: 35px;
+  }
+}
+@media (min-width: 740px) {
+  .cs {
+    width: 690px;
+  }
+  .cs-wrapper {
+    justify-content: end;
+    width: 330px;
+  }
+  .cs-h3 {
+    font-size: 35px;
+    text-align: right;
+    line-height: 3;
+  }
+  .cs-container {
+    width: 690px;
+    justify-content: end;
+  }
+  .mp-divider {
+    width: 690px;
+  }
+}
+@media (min-width: 850px) {
+  .cs {
+    width: 694px;
+  }
+  .cs-wrapper {
+    justify-content: end;
+    width: 330px;
+  }
+  .cs-h3 {
+    font-size: 35px;
+    text-align: right;
+    line-height: 3;
+  }
+  .cs-container {
+    width: 690px;
+    justify-content: end;
+  }
+  .mp-divider {
+    width: 690px;
+  }
+  .mp-more-projects {
+    text-align: left;
+  }
 }/*# sourceMappingURL=cs.css.map */

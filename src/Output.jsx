@@ -14,8 +14,8 @@ const Output = () => {
         <Hero/>
         <FeaturedProjects/> 
         {/* <MoreProjects/> */}
-        {/* <CurrentSkill/> */}
-        {/* <Footer/> */}
+        <CurrentSkill/>
+        <Footer/>
     </div>
   )
 }
