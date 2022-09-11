@@ -63,6 +63,7 @@
   justify-content: space-between;
   flex-direction: column;
   width: 278px;
+  margin: 0 auto;
 }
 
 .fp-info1-info-p {
@@ -200,6 +201,8 @@
   flex-direction: row;
   justify-content: space-around;
   text-align: center;
+  width: 265px;
+  margin: 0 auto;
 }
 
 .fp-showcase-2 {
@@ -240,6 +243,7 @@
   .fp-info1-info {
     flex-direction: row;
     width: 329px;
+    margin: 0;
   }
   .fp {
     text-align: left;
@@ -339,9 +343,11 @@
   }
   .fp-showcase-1 {
     width: 333px;
+    height: 187.31px;
   }
   .fp-showcase-2 {
     width: 331px;
+    height: 187.31px;
   }
   .fp-info1-info {
     width: 332px;
@@ -362,11 +368,11 @@
   }
   .fp-showcase-1 {
     width: 361px;
-    height: 202.5px;
+    height: 203.06px;
   }
   .fp-showcase-2 {
     width: 360px;
-    height: 204.19px;
+    height: 203.06px;
   }
   .fp-info2-info {
     width: 360px;
@@ -378,7 +384,7 @@
   }
   .fp-showcase-1 {
     width: 406px;
-    height: 227.25px;
+    height: 228.38px;
   }
   .fp-info1-title-container {
     width: 404px;
@@ -388,7 +394,7 @@
   }
   .fp-showcase-2 {
     width: 405px;
-    height: 230.63px;
+    height: 228.38px;
   }
   .fp-info1-info {
     width: 406px;
@@ -409,7 +415,7 @@
   }
   .fp-showcase-1 {
     width: 449px;
-    height: 252px;
+    height: 252.56px;
   }
   .fp-info1-title-container {
     width: 404px;
@@ -419,7 +425,7 @@
   }
   .fp-showcase-2 {
     width: 449px;
-    height: 252px;
+    height: 252.56px;
   }
   .fp-info1-info {
     width: 450px;
@@ -446,14 +452,66 @@
   }
   .fp-showcase-1 {
     width: 493px;
+    height: 277.31px;
   }
   .fp-showcase-2 {
     width: 492px;
+    height: 277.31px;
   }
   .fp-info1-info {
     width: 493px;
   }
   .fp-info2-info {
     width: 492px;
+  }
+}
+@media (min-width: 1350px) {
+  .fp-container {
+    width: 1071px;
+  }
+  .fp-showcase-1 {
+    width: 521px;
+    height: 293.06px;
+  }
+  .fp-showcase-2 {
+    width: 521px;
+    height: 293.06px;
+  }
+  .fp-info1-info {
+    width: 521px;
+  }
+  .fp-info2-info {
+    width: 521px;
+  }
+  .fp-info2-info-p {
+    font-size: 15px;
+  }
+  .fp-info2-info-roles {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1440px) {
+  .fp-container {
+    width: 1162px;
+  }
+  .fp-showcase-1 {
+    width: 566px;
+    height: 318.38px;
+  }
+  .fp-showcase-2 {
+    width: 566px;
+    height: 318.38px;
+  }
+  .fp-info1-info {
+    width: 566px;
+  }
+  .fp-info2-info {
+    width: 566px;
+  }
+  .fp-info2-info-p {
+    font-size: 15px;
+  }
+  .fp-info2-info-roles {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=fp.css.map */
