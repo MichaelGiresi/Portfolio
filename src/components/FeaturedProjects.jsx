@@ -22,7 +22,7 @@ const FeaturedProjects = () => {
         </div>
       </div>
       <div className='fp-showcase-container'>
-        <div className='fp-showcase-1' id="fp-showcase-mbs-1"><a href='https://tranquil-druid-afa7cd.netlify.app/' rel='noopener' target = '_blank' className='fp-showcase-button'>VISIT THE SITE</a></div>
+        <div className='fp-showcase-1' id="fp-showcase-mbs-1"><a href='https://stupendous-puppy-0e318b.netlify.app' rel='noopener' target = '_blank' className='fp-showcase-button'>VISIT THE SITE</a></div>
         <div className='fp-showcase-2' id="fp-showcase-mbs-2"></div>
       </div>
       <div className='nav_separator-fp'></div>
@@ -40,7 +40,7 @@ const FeaturedProjects = () => {
         </div>
       </div>
       <div className='fp-showcase-container'>
-        <div className='fp-showcase-1' id="fp-showcase-algo-1"><a href='https://vocal-fox-15be3e.netlify.app/' rel='noopener' target = '_blank' className='fp-showcase-button'>VISIT THE SITE</a></div>
+        <div className='fp-showcase-1' id="fp-showcase-algo-1"><a href='https://subtle-mochi-56e04f.netlify.app' rel='noopener' target = '_blank' className='fp-showcase-button'>VISIT THE SITE</a></div>
         <div className='fp-showcase-2' id="fp-showcase-algo-2"></div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5dce44f2.css",
-    "main.js": "/static/js/main.3bd62e9b.js",
+    "main.js": "/static/js/main.dfbf486c.js",
     "static/js/787.18618382.chunk.js": "/static/js/787.18618382.chunk.js",
     "static/media/algorythmia2.png": "/static/media/algorythmia2.954ab244694fa91e505b.png",
     "static/media/algorythmia-png.png": "/static/media/algorythmia-png.402d3f5a4b62421f2b39.png",
@@ -13,11 +13,11 @@
     "static/media/trianglebackground.svg": "/static/media/trianglebackground.7498f771d039451a1bbf2b53df30f757.svg",
     "static/media/monogram.svg": "/static/media/monogram.30ffcce255f97bc71da53cae4e89fc95.svg",
     "main.5dce44f2.css.map": "/static/css/main.5dce44f2.css.map",
-    "main.3bd62e9b.js.map": "/static/js/main.3bd62e9b.js.map",
+    "main.dfbf486c.js.map": "/static/js/main.dfbf486c.js.map",
     "787.18618382.chunk.js.map": "/static/js/787.18618382.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5dce44f2.css",
-    "static/js/main.3bd62e9b.js"
+    "static/js/main.dfbf486c.js"
   ]
 }
