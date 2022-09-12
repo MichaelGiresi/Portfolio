@@ -147,4 +147,31 @@
   .mp-more-projects {
     text-align: left;
   }
+}
+@media (min-width: 1150px) {
+  .cs {
+    width: 926px;
+  }
+  .cs-wrapper {
+    justify-content: end;
+    width: 449px;
+  }
+  .cs-h3 {
+    font-size: 35px;
+    text-align: right;
+    line-height: 3;
+  }
+  .footer-divider {
+    margin-top: 150px;
+  }
+  .cs-container {
+    width: 926px;
+    justify-content: end;
+  }
+  .mp-divider {
+    width: 926px;
+  }
+  .mp-more-projects {
+    text-align: left;
+  }
 }/*# sourceMappingURL=cs.css.map */
