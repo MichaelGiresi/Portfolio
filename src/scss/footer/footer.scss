@@ -1,5 +1,5 @@
 .footer-container {
-    height: 450px;
+    height: 201px;
     // display: -webkit-box;
     // display: -ms-flexbox;
     display: flex;
@@ -11,7 +11,7 @@
     // position: relative;
     // width: 100v;
     max-width: 1440px;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 1px auto;
     
 }
 
@@ -22,8 +22,7 @@
     // bottom: 0;
     // left: 15vw;
     // right: 15vw;
-    width: 95vw;
-    height: 450px;
+    // width: 95vw;
     margin: 0 auto 0 auto;
 }
 
@@ -39,7 +38,7 @@ position:absolute;
 .footer-text {
 
     font-family: 'Libre';
-    font-size: 75px;
+    font-size: 35px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -52,7 +51,7 @@ position:absolute;
 
 .footer-text-talk-link {
     font-family: Lato;
-    font-size: 100px;
+    font-size: 50px;
     font-weight: 900;
     letter-spacing: -1.45px;
     color: #67182e;
@@ -112,4 +111,49 @@ position:absolute;
   letter-spacing: 2px;
   text-align: right;
   color: #111;
+}
+
+
+@media(min-width: 450px) {
+    .footer-container {
+        margin-top: 20px
+    }
+}
+
+@media(min-width: 550px) {
+    .footer-divider {
+        margin-top: 100px;
+    }
+}
+
+@media(min-width: 650px) {
+    .footer-container {
+        margin-top: 30px
+    }
+
+    .footer-text {
+        font-size: 40px;
+    }
+    
+    .footer-text-talk-link {
+        font-size: 67px;
+    }
+
+    .footer-divider {
+        margin-top: 100px;
+    }
+}
+
+@media(min-width:750px) {
+    .footer-text {
+        font-size: 50px;
+    }
+
+    .footer-text-talk-link {
+        font-size: 80px;
+    }
+
+    .footer-divider {
+        margin-top: 100px;
+    }
 }

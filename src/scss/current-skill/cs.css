@@ -1,6 +1,6 @@
 .cs {
   max-width: 1600px;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 100px auto;
   width: 98%;
 }
 
@@ -103,7 +103,7 @@
   }
   .cs-wrapper {
     justify-content: end;
-    width: 330px;
+    width: 331px;
   }
   .cs-h3 {
     font-size: 35px;
@@ -111,11 +111,38 @@
     line-height: 3;
   }
   .cs-container {
-    width: 690px;
+    width: 694px;
     justify-content: end;
   }
   .mp-divider {
-    width: 690px;
+    width: 694px;
+  }
+  .mp-more-projects {
+    text-align: left;
+  }
+}
+@media (min-width: 1050px) {
+  .cs {
+    width: 840px;
+  }
+  .cs-wrapper {
+    justify-content: end;
+    width: 405px;
+  }
+  .cs-h3 {
+    font-size: 35px;
+    text-align: right;
+    line-height: 3;
+  }
+  .footer-divider {
+    margin-top: 150px;
+  }
+  .cs-container {
+    width: 840px;
+    justify-content: end;
+  }
+  .mp-divider {
+    width: 840px;
   }
   .mp-more-projects {
     text-align: left;

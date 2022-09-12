@@ -18,7 +18,6 @@ const Footer = () => {
     <div className='footer-divider'></div>
     <div className='footer-bottom-container'>
     <a className='footer-linkedin' rel='noopener' target = '_blank' href='https://www.linkedin.com/in/michael-giresi-4b678422a/'>LINKEDIN</a>
-      {/* <div className='footer-linkedin'> LINKED IN</div> */}
       <div className='footer-arrmg'>MICHAEL GIRESI</div>
     </div>
     </div>
