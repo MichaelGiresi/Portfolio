@@ -40,7 +40,7 @@ const FeaturedProjects = () => {
         </div>
       </div>
       <div className='fp-showcase-container'>
-        <div className='fp-showcase-1' id="fp-showcase-algo-1"><a href='https://subtle-mochi-56e04f.netlify.app' rel='noopener' target = '_blank' className='fp-showcase-button'>VISIT THE SITE</a></div>
+        <div className='fp-showcase-1' id="fp-showcase-algo-1"><a href='https://famous-dango-24aba4.netlify.app' rel='noopener' target = '_blank' className='fp-showcase-button'>VISIT THE SITE</a></div>
         <div className='fp-showcase-2' id="fp-showcase-algo-2"></div>
       </div>
     </div>
