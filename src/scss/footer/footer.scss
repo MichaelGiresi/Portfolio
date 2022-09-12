@@ -122,7 +122,7 @@ position:absolute;
 
 @media(min-width: 550px) {
     .footer-divider {
-        margin-top: 100px;
+        margin-top: 50px;
     }
 }
 
@@ -140,7 +140,7 @@ position:absolute;
     }
 
     .footer-divider {
-        margin-top: 100px;
+        margin-top: 50px;
     }
 }
 
@@ -155,5 +155,34 @@ position:absolute;
 
     .footer-divider {
         margin-top: 100px;
+    }
+}
+
+
+@media (min-width: 1150px) {
+    .footer-divider {
+        margin-top: 150px;
+    }
+
+    .footer-text {
+        font-size: 70px;
+    }
+
+    .footer-text-talk-link {
+        font-size: 85px;
+    }
+}
+
+@media (min-width: 1350px) {
+    .footer-divider {
+        margin-top: 150px;
+    }
+
+    .footer-text {
+        font-size: 80px;
+    }
+
+    .footer-text-talk-link {
+        font-size: 95px;
     }
 }
