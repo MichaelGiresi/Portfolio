@@ -12,8 +12,7 @@ const MoreProjects = () => {
         </div>
         <div className='mp-info-p-container'>
           <div className='mp-info-p-wrapper'>
-
-        <p className='mp-info-p'>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.  </p>
+            <p className='mp-info-p'>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.  </p>
           </div>
         </div>
       </div>

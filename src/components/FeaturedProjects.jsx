@@ -47,7 +47,5 @@ const FeaturedProjects = () => {
   )
 }
 
-
-{/* <button className=" w-[60%] h-[30px] font-['Lato'] bg-[#67182e] text-white rounded">VISIT THE SITE</button> */}
 export default FeaturedProjects
 
