@@ -27,7 +27,7 @@ const FeaturedProjects = () => {
       </div>
       <div className='nav_separator-fp'></div>
       <div className='fp-info2-container'>
-      <div className='fp-info2-title-container'>
+        <div className='fp-info2-title-container'>
           <h1 className='fp-info2-title'>ALGORYTHMIA</h1>
           <h4 className='fp-info2-year'>2022</h4>
         </div>
