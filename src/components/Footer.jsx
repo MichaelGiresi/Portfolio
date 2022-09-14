@@ -16,8 +16,8 @@ const Footer = () => {
       </div>
       <div className='footer-divider'></div>
       <div className='footer-bottom-container'>
-        <a className='footer-linkedin' rel='noopener' target = '_blank' href='https://www.linkedin.com/in/michael-giresi-4b678422a/'>LINKEDIN</a>
-        <div className='footer-arrmg'>MICHAEL GIRESI</div>
+        <a className='footer-linkedin' rel='noopener' target = '_blank' href='https://michaelgiresiresume.netlify.app/'>RESUME</a>
+        <a className='footer-github' rel='noopener' target='_blank' href='https://github.com/MichaelGiresi'>GITHUB</a>
       </div>
     </div>
   )
