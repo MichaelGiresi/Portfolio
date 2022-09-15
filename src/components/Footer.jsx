@@ -1,6 +1,7 @@
 import React from 'react'
 import footer from '../scss/footer/footer.css'
 import trianglebackground from '../assets/trianglebackground.svg'
+
 const Footer = () => {
   return (
     <div>
@@ -24,6 +25,3 @@ const Footer = () => {
 }
 
 export default Footer
-
-
-// width="1333" height="450" viewBox="0 0 1333 450"
