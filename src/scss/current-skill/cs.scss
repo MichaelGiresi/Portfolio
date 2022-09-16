@@ -12,7 +12,6 @@
 }
 
 .cs-wrapper {
-    // border: red 1px dashed;
     height:100%;
     display: flex;
     flex-direction: column;
@@ -25,24 +24,18 @@
     font-family: 'Lato';
     margin: 0 0 0 0;
     font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.5;
-  letter-spacing: 2px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: 2px;
 }
 
 .cs-divider {
 
     background-color: black;
-    height: 1px;
-    // width: 96%;
-    // margin-left: 15px;
-    // margin-top: 15px;
 }
 
 .mp-more-projects {
-    // width: 721px;
-    // height: 47px;
     font-family: Lato;
     font-size: 17px;
     font-weight: normal;
@@ -58,15 +51,9 @@
 .mp-divider {
     background-color: black;
     height: 1px;
-    // width: 96%;
-    // margin-left: 15px;
-    // margin-right: 15px;
-    // margin-top: 15px;
 }
 
 .mp-more-projects {
-    // width: 721px;
-    // height: 47px;
     font-family: Lato;
     font-size: 17px;
     font-weight: normal;
