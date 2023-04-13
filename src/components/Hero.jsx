@@ -49,7 +49,7 @@ const Hero = () => {
   return (
     <div className='hero_main'>
       <div className='hero_container'>
-        <div className='hero_frontend' ref={feRef}>FRONT-END</div>
+        <div className='hero_frontend' ref={feRef}>FULL-STACK</div>
         <div className='hero_developer' ref={devRef}>DEVELOPER</div>
       </div>
       <div className='hero_triangles_text'>

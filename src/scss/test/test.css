@@ -572,17 +572,7 @@
   font-family: "Lato";
   margin: auto 0 2px 0;
   font-weight: bold;
-  -webkit-animation: fadeIn 1.8s;
-          animation: fadeIn 1.8s;
-}
-
-@-webkit-keyframes fadeIn {
-  from {
-    color: black;
-  }
-  to {
-    color: red;
-  }
+  animation: fadeIn 1.8s;
 }
 
 @keyframes fadeIn {
@@ -591,14 +581,6 @@
   }
   to {
     color: red;
-  }
-}
-@-webkit-keyframes fadeOut {
-  from {
-    opacity: 0.8;
-  }
-  to {
-    opacity: 0;
   }
 }
 @keyframes fadeOut {

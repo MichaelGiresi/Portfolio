@@ -31,7 +31,7 @@ const FeaturedProjects = () => {
       <div className='fp-info2-container'>
         <div className='fp-info2-title-container'>
           <h1 className='fp-info2-title'>ALGORYTHMIA</h1>
-          <h4 className='fp-info2-year'>2022</h4>
+          <h4 className='fp-info2-year'>2022-2023</h4>
         </div>
         <div className='fp-info2-info'>
           <p className='fp-info2-info-p'>Algorythmia is a brand focused e-commerce website.</p>
@@ -42,7 +42,7 @@ const FeaturedProjects = () => {
         </div>
       </div>
       <div className='fp-showcase-container'>
-        <div className='fp-showcase-1' id="fp-showcase-algo-1"><a href='https://famous-dango-24aba4.netlify.app' rel='noopener' target = '_blank' className='fp-showcase-button'>VISIT THE SITE</a>
+        <div className='fp-showcase-1' id="fp-showcase-algo-1"><a href='https://github.com/MichaelGiresi/algorythmia-frontend' rel='noopener' target = '_blank' className='fp-showcase-button'>VISIT THE CODE</a>
         </div>
         <div className='fp-showcase-2' id="fp-showcase-algo-2"></div>
       </div>
